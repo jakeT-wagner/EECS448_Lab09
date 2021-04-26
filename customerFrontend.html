@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gardening.Wow</title>
+    <title>CSS manipulation</title>
+    <script src = "formChecker.js" type = "text/javascript"></script>
+    <link href="style.css"
+    rel="stylesheet"
+    type="text/css"/>
+</head>
+<body>
+    <h1>Gardening</h1>
+    <form onsubmit = "return validate()" action = "customerBackend.php" method = post>
+        <label for="email">Enter Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="password">Enter Password:</label>
+        <input type="text" id="password" name="password" required><br><br>
+        <img alt="Seeds" src="https://www.honeycombspeechtherapy.com/wp-content/uploads/2016/03/DSC1739-e1459358559975.jpg"
+         width=300 height="170"><br><br>
+        <label for="seedAmt">Enter Amount of seed packets($2):</label>
+        <input type="text" id="seedAmt" name="seedAmt" required><br><br>
+        <img alt="Shovel" src="https://www.nationalfirefighter.com/resize/Shared/Images/Product/E-Grip-Shibble-Planting-Shovel/3554.jpg?bw=575"
+         width=300 height="170"><br><br>
+        <label for="shovAmt">Enter Amount of shovels($43):</label>
+        <input type="text" id="shovAmt" name="shovAmt" required><br><br>
+        <img alt="mulch" src="http://mobileimages.lowes.com/product/converted/742786/742786902665_09106189.jpg?size=pdhi"
+         width=300 height="170"><br><br>
+        <label for="mlchAmt">Enter bags of mulch($12):</label>
+        <input type="text" id="mlchAmt" name="mlchAmt" required><br><br>
+        <p>What shipping would you like?</p>
+        <input type="radio" id="slow" name="shipping" value="Slow" checked = "checked">
+        <label for="slow">Free shipping(5-10 days)</label><br>
+        <input type="radio" id="expedited" name="shipping" value="Expedited">
+        <label for="expedited">Expedited(2-4 days) $10</label><br>
+        <input type="radio" id="rapid" name="shipping" value="Rapid">
+        <label for="rapid">Overnight 15$</label><br><br>
+      
+        <input type="submit">
+    </form>
+</body>
+</html>

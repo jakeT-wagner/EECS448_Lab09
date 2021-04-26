@@ -1,0 +1,21 @@
+.box_labs {
+    display:inline-block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 20em
+}
+
+.lab8 {
+    display: grid;
+    margin-left: 575px;
+    margin-right: auto;
+    margin-top: 275px;
+    background-color: white;
+    border: 5px solid black;
+    width: 30em;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Rubber_duckies_So_many_ducks.jpg/1200px-Rubber_duckies_So_many_ducks.jpg);
+    background-repeat: none;
+}
